@@ -19,7 +19,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   });
 
   await conn.sendMessage(m.chat, {
-    text: `*جاري تحميل* ${info.name}...\n\nسعيد انك تستعمل جيطوسة بوت وسأكون مسرورا 😄 إن انضممت لأنستغرامي\ninstagram.com/ovmar_1`,
+    text: `*جاري تحميل* ${info.name}...\n\nسعيد انك تستعمل سيلانا بوت وسأكون مسرورا 😄 إن انضممت لأنستغرامي\ninstagram.com/noureddine_ouafy`,
   });
 
   await conn.sendMessage(
